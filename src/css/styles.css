@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {font-size: 62.5%;}
+body {
+    height: 100vh;
+}
+
+:root {
+    --primary: #64cf60;
+    --secondary: #FFE1C4;
+    --title: #FF8816;
+    --heading: #509c4d;
+}
+
+nav {
+    background: var(--primary);
+}
+.sidenav .subheader {
+    color: var(--heading);
+    font-size: 2.5rem;
+}
+h1 {
+    text-align: right;
+    line-height: 120%;
+}
